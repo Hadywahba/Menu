@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
-
 export default function Navbar({ setquery , query }) {
   const [isDark, setisDark] = useState(false);
   const ref = useRef(null);
